@@ -19,22 +19,16 @@ A professional ASP.NET Core Web API boilerplate project that demonstrates indust
 ```
 web-api-boilerplatet/
 ├── Controllers/           # API Controllers
-│   └── CategoryController.cs
 ├── Core/                  # Core business logic
 ├── DTOs/                  # Data Transfer Objects
 ├── Helpers/               # Utility classes
 ├── MapperDTOs/            # DTO mapping configurations
 ├── Mappers/               # Object mapping implementations
 ├── Models/                # Domain models
-│   ├── Category.cs
-│   ├── Todo.cs
-│   └── TodoItem.cs
 ├── Models.EFC/            # Entity Framework models
 ├── Properties/            # Project properties
 ├── Repositories/          # Data access layer
-│   └── Category/
 ├── Services/              # Business logic layer
-│   └── Category/
 ├── Program.cs             # Application entry point
 ├── appsettings.json       # Application configuration
 ├── appsettings.Development.json
